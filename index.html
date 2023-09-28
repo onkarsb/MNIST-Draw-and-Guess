@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNIST: Draw and guess!</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>MNIST: Draw and guess!</h1>
+    <hr>
+    <b><h3>Draw a number &#128071;</h3></b>
+    <canvas id="myCanvas"></canvas>
+    <br>
+    <canvas hidden id="smallCanvas"></canvas>
+
+    <!-- <div> -->
+        <button id="predictBtn">Guess!</button>
+        <button id="resetBtn">Erase</button>
+    <!-- </div> -->
+    <br>
+    <div>
+        <p class="content">&#9196; Predicted number &#9196;</p>
+    </div>
+
+    <div class="container">
+        <span id="predOut"></span>
+    </div>
+
+    <div>
+        <p>Source code: <a href="https://github.com/onkarsb">MNIST-Draw-and-guess</a></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="./js/main.js" type="module"></script>    
+</body>
+</html>
