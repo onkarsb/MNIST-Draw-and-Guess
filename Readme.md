@@ -4,7 +4,7 @@ A webpage where you can draw number and let the ANN model guess it 😁
 
 ## Demo:
 
-![Demo-MNIST-draw-and-guess](assets\Demo-MNIST-draw-and-guess.gif)
+![Demo-MNIST-draw-and-guess](assets/Demo-MNIST-draw-and-guess.gif)
 
 
 ## Run locally
