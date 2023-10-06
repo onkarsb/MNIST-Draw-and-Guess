@@ -31,6 +31,7 @@ git clone https://github.com/onkarsb/MNIST-Draw-and-Guess.git
 ### Model
 * ANN
 * created and trained in keras with tensorflow
+* jupyter notebook present in *MNIST-ANN-model* folder
 
 ### Model in browser: 
 * keras model exported using tensorflowjs
